@@ -1,0 +1,15 @@
+*.tab.*
+*.o
+*.res 
+*.pcode
+*.sym
+*.swp
+*.lex.c
+*~
+#P1
+pl0 
+pcmp 
+pint
+
+#P2
+

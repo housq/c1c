@@ -1,0 +1,7 @@
+echo "speedrace of c & c1 quicksort"
+echo c1 version 
+	time ./quicksort <data.in >/dev/null
+echo gcc version
+	time ./cquicksort <data.in >/dev/null
+echo icc version
+	time ./iccquicksort <data.in >/dev/null

@@ -1,0 +1,25 @@
+int a[1000000];
+int b[1000000];
+int c[1000000];
+int sum;
+int n;
+
+extern void read();
+extern void output();
+extern void para();
+extern void para_start();
+extern void para_finish();
+
+void c1run(){
+	sum=0;
+	read();
+
+	para_start();
+
+#pragma omp parallel
+	para();
+
+	para_finish();
+
+	output();
+}

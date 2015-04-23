@@ -1,0 +1,28 @@
+int a,b,c,res;
+int data;
+extern void input();
+extern void output();
+extern void nextline();
+
+void quickpow(){
+    int now,total,nb;
+    now=a%c;
+    nb=b;
+    total=1;
+    while nb!=0 { 
+	if odd nb  
+	    total=total*now%c;
+	now=now*now % c;
+	nb=nb/2;
+    }
+    res=total;
+}
+
+void main(){
+	input();a=data;
+	input();b=data;
+	input();c=data;
+	quickpow();
+	data=res;output();
+	nextline();
+}

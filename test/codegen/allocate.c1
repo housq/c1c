@@ -1,0 +1,39 @@
+int a,b,c[10];
+const int d=1;
+const int e[]={1,2,5};
+const int f[16]={1,2,1};
+
+extern void ex();
+
+void sub(){
+	c[3]=333;
+}
+void testfunc(){
+	int cc,a[100];
+	int i;
+	const int ct[100]={1};
+	const int ct2[10]={30,2,4,5,6};
+
+	cc=0;
+	c[0]=ct[0];
+	if odd c[1] {
+		c[9]=-999%30;
+		c[cc]=ct2[cc];
+		c[8]=(c[0]*c[0]-901)+8%4;
+	}
+	i=0;;
+	while i<73 {
+		c[5]=c[5]+1;
+		i=i+1;
+	}
+	sub();
+#pragma omp parallel
+	ex();
+#pragma omp parallel
+	i=2753;
+	c[6]=i;
+	if ct[cc]<3{
+	}
+	if c[cc]<ct[9]{
+	}
+}
